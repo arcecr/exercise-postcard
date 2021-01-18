@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(23, 23, 23);
+  font-family: 'Handlee', cursive;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+
+input {
+  font-family: 'Handlee', cursive;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  border-bottom: 1px solid gray;
+  width: 222px;
+  margin: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  width: 524px;
+  height: 374px;
+  max-width: 524px;
+  max-height: 374px;
+  padding: 10px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card h1 {
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  margin: 0;
+  line-height: 79.2px;
+}
+
+.card .card_header {
+  overflow: hidden;
+}
+
+.card > .card_header .logo {
+  float: right;
+  width: 70px;
+}
+
+.card > .card_header .title {
+  
+}
+
+.card .card_body {
+  overflow: hidden;
+}
+
+.card > .card_body .left {
+  width: 50%;
+  float: left;
+}
+
+.card > .card_body > .left p {
+  margin: 0;
+  padding: 10px 0 15px 0;
+}
+
+.card > .card_body .right {
+  width: 50%;
+  float: right;
+}
+
+.card .card_bottom {
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card > .card_bottom input {
+  background: rgb(189, 193, 192);
+  height: 37px;
+}
+
+.card > .card_bottom input:focus {
+   outline: 1px dashed black;
+}
